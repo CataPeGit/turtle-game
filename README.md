@@ -4,12 +4,9 @@
  Python and Tkinter have to be installed:
 
 
-Install Tkinter:
-
 *Make sure Python and pip is preinstalled on your system:
 
  -Check python version: python --version
-
  -Check pip version: pip -V
  
  -Install Tkinter: pip install tk
