@@ -1,7 +1,7 @@
 **Turtle race game!**
 
 *IMPORTANT*:
- Python and Tkinter have to be installed:
+ Python, Pygame and Tkinter have to be installed:
 
 
 *Make sure Python and pip is preinstalled on your system:
@@ -11,3 +11,5 @@
  -Check pip version: pip -V
  
  -Install Tkinter: pip install tk
+
+ -Install Pygame: pip install pygame
