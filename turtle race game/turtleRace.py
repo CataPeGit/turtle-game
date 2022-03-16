@@ -50,7 +50,7 @@ def race(colors):
 def init_turtle():
     screen = turtle.Screen()
     screen.setup(WIDTH, HEIGHT)
-    screen.title('Testoase baga viteza!')
+    screen.title('Let the turtles race!')
 
 
 
@@ -61,23 +61,4 @@ random.shuffle(COLORS)
 colors = COLORS[:racers]
 
 winner = race(colors)
-print("Marele castigator este testoasa colorata in", winner + "!")
-
-
-
-
-
-
-'''
-racer = turtle.Turtle()
-racer.speed(1)
-racer.penup()
-racer.shape('turtle')
-racer.color('cyan')
-racer.forward(100)
-racer.left(90)
-racer.forward(100)
-racer.right(90)
-racer.forward(100)
-time.sleep(5)
-'''
+print("The winner of this race is", winner + "!")
